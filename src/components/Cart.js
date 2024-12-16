@@ -9,7 +9,7 @@ const Cart = () => {
 
   useEffect(() => {
     getCartItem()
-  },[getCartItem]);
+  },[]);
 
   if (isLoading) {
     return <div>Loading...</div>;
