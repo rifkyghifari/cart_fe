@@ -2,7 +2,7 @@ import React from "react";
 
 const DefaultLayout = ({ children }) => {
   return (
-    <div>
+    <div className="flex flex-row content-center justify-center">
       {children}
     </div>
   );

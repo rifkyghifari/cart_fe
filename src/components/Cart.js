@@ -27,6 +27,7 @@ const Cart = () => {
     return acc;
   }, {});
 
+
   return (
     <div className="p-4">
       <EachUtils
